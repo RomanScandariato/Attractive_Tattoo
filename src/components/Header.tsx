@@ -9,7 +9,7 @@ function Header() {
     <Container className="navbar-style">
       <Navbar className="text-white" style={{ ...textStyle }}>
         <Container className="nav-wrap">
-          <Navbar.Brand as={NavLink} to="/" style={textStyle}>Maypo Deluxe</Navbar.Brand>
+          <Navbar.Brand as={NavLink} to="/" style={textStyle}><img src="/images/Attractive-logo.png" alt="Attractive Tattoo" width="100px" /></Navbar.Brand>
           <Nav className="ms-auto text-white">
             <Nav.Link as={NavLink} to="/" style={textStyle}>Home</Nav.Link>
               <>
