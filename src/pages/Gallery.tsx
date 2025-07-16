@@ -3,7 +3,7 @@ import { Container, ListGroup, Row, Col } from "react-bootstrap";
 function Gallery() {
   return (
     <Container>
-      <h1 className="text-center my-4">Gallery</h1>
+      <h1 className="text-center my-4 font-edwardian">Gallery</h1>
       <ListGroup className="" style={{ paddingBottom: '20px' }}>
         <Row>
           <Col xs={12} md={4} className="mb-4">

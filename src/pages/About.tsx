@@ -7,7 +7,7 @@ import { Container, ListGroup, Row, Col } from "react-bootstrap";
 function About() {
   return (
     <Container>
-      <h1 className="text-center my-4">About Us</h1>
+      <h1 className="text-center my-4 font-edwardian">About Us</h1>
       <ListGroup className="" style={{ paddingBottom: '20px' }}>
 
 
