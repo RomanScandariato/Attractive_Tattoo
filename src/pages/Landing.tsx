@@ -3,7 +3,8 @@ import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 
 function Landing() {
   const handleButtonClick = () => {
-    window.open('https://open.spotify.com/track/4uTe4L4cZcU5C2mkFmfpSu', '_blank');
+    window.open('/upcomingevents', '_blank');
+    // go to events page
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -108,7 +109,7 @@ function Landing() {
           <h1 className="text-center landing-text font-edwardian">Attractive Tattoo</h1>
           <h3 className="text-center landing-text-two">Check Out Our Latest Release!</h3>
           <div className="d-flex justify-content-center">
-            <button onClick={handleButtonClick} className="btn custom-button initial-load mt-3">Latest Release</button>
+            <button onClick={handleButtonClick} className="btn custom-button initial-load mt-3">Next Event</button>
           </div>
         </Col>
       </Row>
@@ -130,22 +131,22 @@ function Landing() {
       <Row className="mt-5 fade-in" ref={videoSectionRef}>
         <Col>
           <div className="d-flex flex-column bio-padding">
-            <h1 className="text-center mt-5">Our Latest Work</h1>
+            <h1 className="text-center mt-5">Tattoos and Piercing</h1>
           </div>
         </Col>
       </Row>
       <Row className="mt-5">
         <Col xs={12} md={6} className="d-flex justify-content-center fade-in" ref={(el: HTMLVideoElement | null) => (videoRefs.current[0] = el)}>
-          <video width="65%" controls style={{ marginTop: '15px' }}>
-            <source src="/videos/If-I-Only-Knew-RELEASE.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+
+            <img src="/images/front-left.jpg" alt="landing-left-image" />
+
+  
         </Col>
         <Col xs={12} md={6} className="d-flex justify-content-center fade-in" ref={(el: HTMLVideoElement | null) => (videoRefs.current[1] = el)}>
-          <video width="65%" controls style={{ marginTop: '15px' }}>
-            <source src="/videos/Around-You-2024.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+
+            <img src="/images/front-right.jpg" alt="landing-right-image" />
+            
+
         </Col>
         <div className="mt-5">
         </div>

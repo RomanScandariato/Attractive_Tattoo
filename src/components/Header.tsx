@@ -13,8 +13,9 @@ function Header() {
           <Nav className="ms-auto text-white">
             <Nav.Link as={NavLink} to="/" style={textStyle}>Home</Nav.Link>
               <>
-                <Nav.Link as={NavLink} to="/songs" style={textStyle}>Songs</Nav.Link>
-                <Nav.Link as={NavLink} to="/socials" style={textStyle}>Social Media</Nav.Link>
+                <Nav.Link as={NavLink} to="/about" style={textStyle}>About</Nav.Link>
+                <Nav.Link as={NavLink} to="/gallery" style={textStyle}>Gallery</Nav.Link>
+                <Nav.Link as={NavLink} to="/upcomingevents" style={textStyle}>Events</Nav.Link>
                 <Nav.Link as={NavLink} to="/contact" style={textStyle}>Contact</Nav.Link>
               </>
           </Nav>
