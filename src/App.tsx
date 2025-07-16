@@ -2,8 +2,9 @@ import {Routes, Route} from 'react-router-dom';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Songs from './pages/Songs';
-import Socials from './pages/SocialMedia';
+import About from './pages/About';
+import Gallery from './pages/Gallery';
+import UpcomingEvents from './pages/Events';
 import Contact from './pages/Contact';
 // import ProtectRoute from './components/ProtectRoute';
 
@@ -22,8 +23,9 @@ function App() {
       <main className="flex-fill">
         <Routes>
           <Route path="/" element={<Landing />} />
-          <Route path="/songs" element={<Songs />} />
-          <Route path="/socials" element={<Socials />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/gallery" element={<Gallery />} />          
+          <Route path="/upcomingevents" element={<UpcomingEvents />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>

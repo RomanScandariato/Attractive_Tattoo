@@ -30,11 +30,11 @@ html, body, #root {
 
 .navbar-style .nav-link:hover {
   text-decoration: none !important;
-  color: #f4ad3c !important;
+  color: #49df00 !important;
 }
 
 .navbar-style .nav-link.active {
-  color: #f4ad3c !important;
+  color: #49df00 !important;
 }
 
 .navbar-brand {
@@ -115,7 +115,7 @@ html, body, #root {
 }
 
 .custom-button {
-  background-color: #e1a23d !important;
+  background-color: #49df00 !important;
   color: white !important;
   border: none;
   padding: 15px 30px;
@@ -125,7 +125,7 @@ html, body, #root {
 }
 
 .custom-button:hover {
-  background-color: #f4ad3c !important;
+  background-color: #49df00 !important;
   color: white !important;
   animation: buttonHover 0.3s forwards;
 }
@@ -142,7 +142,7 @@ html, body, #root {
   bottom: -10px;
   width: 100%;
   height: 3px;
-  background-color: #f4ad3c;
+  background-color: #49df00;
 }
 
 .custom-underline-2 {
@@ -157,7 +157,7 @@ html, body, #root {
   bottom: -30px;
   width: 100%;
   height: 3px;
-  background-color: #f4ad3c;
+  background-color: #49df00;
 }
 
 .bio-text-wrap {
@@ -211,7 +211,7 @@ html, body, #root {
 }
 
 .newsletter-form button {
-  background-color: #e1a23d;
+  background-color: #49df00;
   color: white;
   border: none;
   padding: 10px 30px !important;
@@ -223,7 +223,7 @@ html, body, #root {
 }
 
 .newsletter-form button:hover {
-  background-color: #f4ad3c;
+  background-color: #49df00;
 }
 
 @keyframes fadeIn {
@@ -235,6 +235,32 @@ html, body, #root {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.photo-item {
+  border-radius: 14px !important;
+}
+
+.photo-item p {
+   padding-top: 5px !important;
+   margin-bottom: -5px !important;
+}
+
+.photo-image {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  padding-top: 7px;
+}
+
+.about-us-image {
+  float:left;
+  padding-right: 15px;
+  padding-bottom: 5px;
+}
+
+.about-us-text {
+  background-color:#49df00 !important;
 }
 
 .song-item {
@@ -269,7 +295,7 @@ html, body, #root {
 }
 
 .song-item a {
-  color: #f4ad3c;
+  color: #49df00;
   text-decoration: none;
 }
 
