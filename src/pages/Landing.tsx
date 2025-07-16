@@ -99,7 +99,7 @@ function Landing() {
         <Col xs="12" className="p-0">
           <div className="video-wrapper">
             <video className="landing-hero-video" autoPlay loop muted>
-              <source src="/videos/MD-Movie-Background-2.mp4" type="video/mp4" />
+              <source src="/videos/Attractive-Movie-Background.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
@@ -130,7 +130,7 @@ function Landing() {
       <Row className="mt-5 fade-in" ref={videoSectionRef}>
         <Col>
           <div className="d-flex flex-column bio-padding">
-            <h1 className="text-center mt-5">Recent Video Clips</h1>
+            <h1 className="text-center mt-5">Our Latest Work</h1>
           </div>
         </Col>
       </Row>
