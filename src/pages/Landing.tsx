@@ -116,7 +116,7 @@ function Landing() {
       <Row className="mt-1">
         <Col md="8">
           <div className="d-flex flex-column bio-padding fade-in" ref={bioRef}>
-            <h1 className="mt-5 custom-underline">Biography</h1>
+            <h1 className="mt-5 custom-underline font-edwardian">Biography</h1>
             <p className="bio-text-wrap mt-4 fs-5 fade-in" ref={(el) => (paragraphRefs.current[0] = el)}>Call them a throwback to a simpler era, Maypo Deluxe is a band that manages to craft their sound with instruments instead of samples, feel instead of sterile perfection.</p>
             <p className="bio-text-wrap mt-4 fs-5 fade-in" ref={(el) => (paragraphRefs.current[1] = el)}>While their songs have a retro appeal, they’re modern enough to catch the ear of any music lover. Bluesy vocal tracks that drive with intimacy and strength of melody that secure its hold on the listener increasingly throughout the musical journey.</p>
             <p className="bio-text-wrap mt-4 fs-5 fade-in" ref={(el) => (paragraphRefs.current[2] = el)}>Great song-writing, proving all the more impressive and captivating as the lyrics and melody go on.</p>
@@ -131,7 +131,7 @@ function Landing() {
       <Row className="mt-5 fade-in" ref={videoSectionRef}>
         <Col>
           <div className="d-flex flex-column bio-padding">
-            <h1 className="text-center mt-5">Tattoos and Piercing</h1>
+            <h1 className="text-center mt-5 font-edwardian">Tattoos and Piercing</h1>
           </div>
         </Col>
       </Row>
@@ -153,7 +153,7 @@ function Landing() {
       </Row>
       <Row className="mt-5 fade-in" ref={mailingListRef}>
         <Col xs="12">
-          <h1 className="text-center newsletter-header">Mailing List</h1>
+          <h1 className="text-center newsletter-header font-edwardian">Mailing List</h1>
           <p className="text-center newsletter-extra">Subscribe for upcoming events, shows, releases, and more!</p>
           <Form ref={formRef} onSubmit={handleSubmit} className="newsletter-form">
             <Form.Group controlId="formEmail">
