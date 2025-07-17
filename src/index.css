@@ -169,6 +169,20 @@ html, body, #root {
   word-wrap: break-word;
 }
 
+.bio-paragraph {
+  margin-top: 30px;
+}
+.bio-instalink {
+  margin-top: 7px;
+}
+
+.bio-image {
+  float:left;
+  width: 100px;
+  padding-right: 15px;
+  padding-bottom: 5px;  
+}
+
 .fade-in {
   opacity: 0;
   transition: opacity 1.5s ease-in-out;

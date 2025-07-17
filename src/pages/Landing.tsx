@@ -116,16 +116,74 @@ function Landing() {
       <Row className="mt-1">
         <Col md="8">
           <div className="d-flex flex-column bio-padding fade-in" ref={bioRef}>
-            <h1 className="mt-5 custom-underline font-edwardian">Biography</h1>
-            <p className="bio-text-wrap mt-4 fs-5 fade-in" ref={(el) => (paragraphRefs.current[0] = el)}>Call them a throwback to a simpler era, Maypo Deluxe is a band that manages to craft their sound with instruments instead of samples, feel instead of sterile perfection.</p>
-            <p className="bio-text-wrap mt-4 fs-5 fade-in" ref={(el) => (paragraphRefs.current[1] = el)}>While their songs have a retro appeal, they’re modern enough to catch the ear of any music lover. Bluesy vocal tracks that drive with intimacy and strength of melody that secure its hold on the listener increasingly throughout the musical journey.</p>
-            <p className="bio-text-wrap mt-4 fs-5 fade-in" ref={(el) => (paragraphRefs.current[2] = el)}>Great song-writing, proving all the more impressive and captivating as the lyrics and melody go on.</p>
-            <p className="bio-text-wrap mt-4 fs-5 fade-in" ref={(el) => (paragraphRefs.current[3] = el)}>The very sentiments of the opening track Waiting, such as this act of telling yourself you’ll be alright, reach out with more and more authority; ultimately connecting for their realness. And meanwhile, the soul-rock swagger of the instrumental continues to weave its web.</p>
-            <p className="bio-text-wrap mt-4 fs-5 fade-in custom-underline-2" ref={(el) => (paragraphRefs.current[4] = el)}>Brilliantly crafted songs, an easy must for the year.</p>
+            <h1 className="mt-5 custom-underline font-edwardian">Our Team</h1>
+            <p className="bio-paragraph">
+              <img src="/images/Lee.jpg" alt="Lee" className="bio-image" />
+              Lee is the founders. He established the company in 2005. Wwith instruments instead of samples, feel instead of sterile perfection.
+              <p className="bio-instalink">
+              <a
+              href="https://www.instagram.com/chickenthec/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="me-3"
+              aria-label="Instagram"
+            >Instagram</a>
+            </p>
+            
+            </p>
+
+            <p className="bio-paragraph">
+              <img src="/images/raquel.jpg" alt="Raquel" className="bio-image" />
+              Raquel Raquel Raquel Raquel Raquel Raquel Raquel Maypo Deluxe is a band that manages
+              to craft their sound with instruments instead of samples, Raquel of sterile perfection.
+              <p className="bio-instalink">
+              <a
+              href="https://www.instagram.com/scands3/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="me-3"
+              aria-label="Instagram"
+            >Instagram</a>
+            </p>
+            
+            </p>
+
+             <p className="bio-paragraph">
+              <img src="/images/Austin.jpg" alt="Austin" className="bio-image" />
+              Austin Austin Austin Austin Austin Austin Austin pler era, Maypo Deluxe i Austin Austin s a band that manages
+              to craft their sound with instruments instead of samples, feel instead of sterile perfection.
+              <p className="bio-instalink">
+              <a
+              href="https://www.instagram.com/monsterhigh/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="me-3"
+              aria-label="Instagram"
+            >Instagram</a>
+            </p>
+            
+            </p>
+
+            <p className="bio-paragraph">
+              <img src="/images/Johnny.jpg" alt="Johnny Scan" className="bio-image" />
+              Johnny Scan is a Johnny scan is a Johnny Scan is a kid in a band that manages
+              to craft their sound with instruments instead of samples, feel instead of sterile perfection.
+              <p className="bio-instalink">
+              <a
+              href="https://www.instagram.com/scands3/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="me-3"
+              aria-label="Instagram"
+            >Instagram</a>
+            </p>
+            
+            </p>                       
+
           </div>
         </Col>
         <Col md="4" className="d-flex align-items-center justify-content-center">
-          <img src="/images/crowd_landing_picture.png" alt="Bio Image" className="img-fluid img-padding-right" />
+          <img src="/images/Attractive-logo.png" alt="Bio Image" className="img-fluid img-padding-right" />
         </Col>
       </Row>
       <Row className="mt-5 fade-in" ref={videoSectionRef}>
