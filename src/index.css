@@ -265,6 +265,14 @@ html, body, #root {
 
 .about-us-text {
   background-color:#dadada !important;
+  border-radius: 2px !important; 
+  box-shadow:  2px 2px 2px #49df00; 
+}
+
+.faq-answers {
+  padding-left: 28px;
+  font-style: italic;
+  color:#00a300;
 }
 
 .song-item {

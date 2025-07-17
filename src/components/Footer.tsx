@@ -10,7 +10,7 @@ function Footer() {
       <Container className="py-4">
         <Row className="align-items-center">
           <Col xs="auto">
-            <img src="images/md_brand.gif" alt="Footer Logo" className="footer-logo me-3" />
+            <img src="images/Attractive-logo-black.png" alt="Footer Logo" className="Attractive Tattoo Logo" width="80px" />
           </Col>
           <Col>
             <p className="mb-0">
@@ -50,7 +50,7 @@ function Footer() {
             </a>
           </Col>
           <Col xs="auto">
-            <img src="images/Scuff_Mutt_Dog.gif" alt="Another Footer Logo" className="footer-logo" />
+            <img src="images/Attractive-logo-black.png" alt="Attractive Tatto Logo" width="80px" />
           </Col>
         </Row>
       </Container>

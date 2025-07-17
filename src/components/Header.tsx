@@ -16,6 +16,7 @@ function Header() {
                 <Nav.Link as={NavLink} to="/about" style={textStyle}>About</Nav.Link>
                 <Nav.Link as={NavLink} to="/gallery" style={textStyle}>Gallery</Nav.Link>
                 <Nav.Link as={NavLink} to="/upcomingevents" style={textStyle}>Events</Nav.Link>
+                <Nav.Link as={NavLink} to="/faq" style={textStyle}>FAQ</Nav.Link>
                 <Nav.Link as={NavLink} to="/contact" style={textStyle}>Contact</Nav.Link>
               </>
           </Nav>
