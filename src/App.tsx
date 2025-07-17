@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import About from './pages/About';
 import Gallery from './pages/Gallery';
 import UpcomingEvents from './pages/Events';
+import FAQ from "./pages/FAQ";
 import Contact from './pages/Contact';
 // import ProtectRoute from './components/ProtectRoute';
 
@@ -26,6 +27,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/gallery" element={<Gallery />} />          
           <Route path="/upcomingevents" element={<UpcomingEvents />} />
+          <Route path="/faq" element={<FAQ/>} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
