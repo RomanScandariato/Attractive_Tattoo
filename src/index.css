@@ -174,14 +174,24 @@ html, body, #root {
 }
 .bio-instalink {
   margin-top: 7px;
+  padding-right: 40px;
+}
+.bio-instalink-text {
+  color: #E1306C;
+  text-decoration: none !important;
+  float:inline-start;
+  margin-right: 5px;
+  margin-top: -1px;
+  font-size: 19pt !important;
 }
 
 .bio-image {
   float:left;
-  width: 100px;
+  width: 200px;
   padding-right: 15px;
   padding-bottom: 5px;  
 }
+
 
 .fade-in {
   opacity: 0;

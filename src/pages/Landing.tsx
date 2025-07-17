@@ -1,5 +1,8 @@
 import { useEffect, useRef } from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+
 
 function Landing() {
   const handleButtonClick = () => {
@@ -118,64 +121,80 @@ function Landing() {
           <div className="d-flex flex-column bio-padding fade-in" ref={bioRef}>
             <h1 className="mt-5 custom-underline font-edwardian">Our Team</h1>
             <p className="bio-paragraph">
-              <img src="/images/Lee.jpg" alt="Lee" className="bio-image" />
-              Lee is the founders. He established the company in 2005. Wwith instruments instead of samples, feel instead of sterile perfection.
+              <img src="/images/Lee-new.jpg" alt="Lee" className="bio-image" />
+              Our founder, Lee, established the business in [2005]. For customers wanting realism and black and grey, Lee cannot be recommended enough. Lee specializes in everything from writing and signatures, to full sleeves that pop, and lifelike portraits. He’s able to help with any and all piercing or tattoo questions, and is our residential dermal piercer! Be sure to keep an eye on his work!
               <p className="bio-instalink">
               <a
-              href="https://www.instagram.com/chickenthec/"
+              href="https://www.instagram.com/attractivetattoo/"
               target="_blank"
               rel="noopener noreferrer"
-              className="me-3"
+              className=""
               aria-label="Instagram"
-            >Instagram</a>
+            >
+            <FontAwesomeIcon icon={faInstagram} size="2xs" style={{ fontSize: '40px', color: '#E1306C' }} />
+            <div className="bio-instalink-text">
+              Instagram
+            </div>
+            </a>
             </p>
             
             </p>
 
             <p className="bio-paragraph">
-              <img src="/images/raquel.jpg" alt="Raquel" className="bio-image" />
-              Raquel Raquel Raquel Raquel Raquel Raquel Raquel Maypo Deluxe is a band that manages
-              to craft their sound with instruments instead of samples, Raquel of sterile perfection.
+              <img src="/images/raquel-new.jpg" alt="Raquel" className="bio-image" />
+              Here since 2015, Raquel remains our go-to artist for large full color work. Raquel excels in all tattoos involving nature, animals, and myth. She truly has a passion for neo-traditional and Japanese traditional, while able to replicate any styles you can bring in. She is always ready to start more manga, anime, and cartoon tattoos, and has plenty of fun panels of flash to choose from!
               <p className="bio-instalink">
               <a
-              href="https://www.instagram.com/scands3/"
+              href="https://www.instagram.com/normalpeoplescareme_01/"
               target="_blank"
               rel="noopener noreferrer"
               className="me-3"
               aria-label="Instagram"
-            >Instagram</a>
+            >
+            <FontAwesomeIcon icon={faInstagram} size="2xs" style={{ fontSize: '40px', color: '#E1306C' }} />
+            <div className="bio-instalink-text">
+              Instagram
+            </div>
+            </a>
             </p>
             
             </p>
 
              <p className="bio-paragraph">
-              <img src="/images/Austin.jpg" alt="Austin" className="bio-image" />
-              Austin Austin Austin Austin Austin Austin Austin pler era, Maypo Deluxe i Austin Austin s a band that manages
-              to craft their sound with instruments instead of samples, feel instead of sterile perfection.
+              <img src="/images/austin-new.jpg" alt="Austin" className="bio-image" />
+With us since 2021, Austin always keeps his flash fresh. His tattoo designs range from video games, pop culture, all the way to yokai and snarling monsters! Character design and creative composition are his forte, so wether you bring in some fun custom ideas or have a favorite character, Austin is ready to go!
               <p className="bio-instalink">
               <a
-              href="https://www.instagram.com/monsterhigh/"
+              href="https://www.instagram.com/w1tchbolt/"
               target="_blank"
               rel="noopener noreferrer"
               className="me-3"
               aria-label="Instagram"
-            >Instagram</a>
+            >
+            <FontAwesomeIcon icon={faInstagram} size="2xs" style={{ fontSize: '40px', color: '#E1306C' }} />
+            <div className="bio-instalink-text">
+              Instagram
+            </div>
+            </a>
             </p>
             
             </p>
 
             <p className="bio-paragraph">
               <img src="/images/Johnny.jpg" alt="Johnny Scan" className="bio-image" />
-              Johnny Scan is a Johnny scan is a Johnny Scan is a kid in a band that manages
-              to craft their sound with instruments instead of samples, feel instead of sterile perfection.
-              <p className="bio-instalink">
+              Johnny Scandariato invites you to showcase your work to his tattoo artists, who specialize in realism, full sleeves, lifelike portraits, and various styles including manga, anime, and cartoon tattoos.             <p className="bio-instalink">
               <a
               href="https://www.instagram.com/scands3/"
               target="_blank"
               rel="noopener noreferrer"
               className="me-3"
               aria-label="Instagram"
-            >Instagram</a>
+            >
+            <FontAwesomeIcon icon={faInstagram} size="2xs" style={{ fontSize: '40px', color: '#E1306C' }} />
+            <div className="bio-instalink-text">
+              Instagram
+            </div>
+            </a>
             </p>
             
             </p>                       
