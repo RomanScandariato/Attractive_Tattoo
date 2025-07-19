@@ -121,6 +121,7 @@ function Landing() {
           <div className="d-flex flex-column bio-padding fade-in" ref={bioRef}>
             <h1 className="mt-5 custom-underline font-edwardian">Our Team</h1>
             <p className="bio-paragraph">
+              <h1 className="font-edwardian">Lee</h1>
               <img src="/images/Lee-new.jpg" alt="Lee" className="bio-image" />
               Our founder, Lee, established the business in [2005]. For customers wanting realism and black and grey, Lee cannot be recommended enough. Lee specializes in everything from writing and signatures, to full sleeves that pop, and lifelike portraits. He’s able to help with any and all piercing or tattoo questions, and is our residential dermal piercer! Be sure to keep an eye on his work!
               <p className="bio-instalink">
@@ -141,6 +142,7 @@ function Landing() {
             </p>
 
             <p className="bio-paragraph">
+              <h1 className="font-edwardian">Raquel</h1>
               <img src="/images/raquel-new.jpg" alt="Raquel" className="bio-image" />
               Here since 2015, Raquel remains our go-to artist for large full color work. Raquel excels in all tattoos involving nature, animals, and myth. She truly has a passion for neo-traditional and Japanese traditional, while able to replicate any styles you can bring in. She is always ready to start more manga, anime, and cartoon tattoos, and has plenty of fun panels of flash to choose from!
               <p className="bio-instalink">
@@ -161,8 +163,9 @@ function Landing() {
             </p>
 
              <p className="bio-paragraph">
+              <h1 className="font-edwardian">Austin</h1>
               <img src="/images/austin-new.jpg" alt="Austin" className="bio-image" />
-With us since 2021, Austin always keeps his flash fresh. His tattoo designs range from video games, pop culture, all the way to yokai and snarling monsters! Character design and creative composition are his forte, so wether you bring in some fun custom ideas or have a favorite character, Austin is ready to go!
+              With us since 2021, Austin always keeps his flash fresh. His tattoo designs range from video games, pop culture, all the way to yokai and snarling monsters! Character design and creative composition are his forte, so wether you bring in some fun custom ideas or have a favorite character, Austin is ready to go!
               <p className="bio-instalink">
               <a
               href="https://www.instagram.com/w1tchbolt/"
@@ -181,6 +184,7 @@ With us since 2021, Austin always keeps his flash fresh. His tattoo designs rang
             </p>
 
             <p className="bio-paragraph">
+              <h1 className="font-edwardian">Johnny</h1>
               <img src="/images/Johnny.jpg" alt="Johnny Scan" className="bio-image" />
               Johnny Scandariato invites you to showcase your work to his tattoo artists, who specialize in realism, full sleeves, lifelike portraits, and various styles including manga, anime, and cartoon tattoos.             <p className="bio-instalink">
               <a
